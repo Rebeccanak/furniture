@@ -1,10 +1,13 @@
 
 
 .main{
+    
     margin-left: 10%;
     margin-right: 10%;
+    background-color:whitesmoke;
 }
     .cont{
+    
     font-size: 20px;
     display: flex;
     flex-direction: row;
@@ -14,13 +17,17 @@
 .but1{
    color: whitesmoke;
    background-color: black;
-   padding: 3%;
-   border-radius: 0px;
+   padding-top: 9px;
+   padding: 2%;
+   border-radius: 10px;
+   width: 2px,2px 2px;
+   height: 2px;
+
 }
 li{
     display: inline-block;
     list-style-type: none;
-    font-size: 15px;
+    font-size: 20px;
     padding: 14px 17px;
 }
 #img{
@@ -63,6 +70,9 @@ h3{
 .divnum{
     
     display: flex;
+    background-color : bisque;
+    background-size: 20%;
+    
 }
 .divpro{
 
@@ -142,9 +152,9 @@ display: flex;
 
 }
 .column2{
-    width: 20px;
+    width: 500px;
     flex: 35%;
-    padding: 5px;
+    padding: 10px;
 
 }
 .column3{
@@ -163,7 +173,7 @@ display: flex;
     padding: 5px;
 }
 .column5{
-    width: 20px;
+    width: 10px;
     flex: 35%;
     padding: 5px;
 }
@@ -199,7 +209,55 @@ float:0px;
     margin-left: 30%;
     margin-top: 40px;
 }
+.flex{
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+    border: 0px;
+}
+.sub{
+    margin-top: -25%;
+    margin-left: 10%;
+    font-size: 50px;
+    color: antiquewhite;
+    
+    
+}
+input{
+    padding: 23px;
+    width: 250px;
+    margin-left: 30px;
+     
+}
+.button{
+    margin-left: 23%;
+    margin-top: -40px;
+    
+}
+#lastbut{
+    padding: 5px 5px;
+    border-radius: px;
+    color: aliceblue;
+    background-color: black;
+}
+.allcont{
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+}
+.copy{
+    font-size: 20px;
 
+}
+.help{
+    font-size: 20px;
+}
+.port{
+    font-size: 20px;
+}
+.watsup{
+    font-size: 20px;
+}
 
 
 
